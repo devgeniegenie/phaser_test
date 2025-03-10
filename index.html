@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vite App</title>
+</head>
+<body>
+<header>
+    <p>Phaser 테스트 | 사과 받기</p>
+</header>
+<main>
+    <canvas id="gameCanvas"></canvas>
+    <div id="gameStartDiv" class="gameUI">
+        <h1>사과 받기</h1>
+        <p>30동안 사과 받기</p>
+        <p>10개 이상 받으면 승리</p>
+        <p>10개 이하로 받으면 패배</p>
+        <button id="gameStartBtn"><p>Start</p></button>
+    </div>
+    <div id="gameEndDiv" class="gameUI">
+        <p>Game Over</p>
+        <h1>You <span id="gameWinLoseSpan"></span></h1>
+        <h1>최종 점수: <span id="gameEndScoreSpan"></span></h1>
+        <p>한번더 하려면 페이지 새로고침 하세요</p>
+    </div>
+</main>
+<footer>
+    <p>Created By CJ</p>
+</footer>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
